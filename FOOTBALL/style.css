@@ -1,0 +1,222 @@
+body {
+    background-color: #000E14;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 1500px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    white-space: nowrap;
+    height: 33px;
+    width: 1600px;
+}
+
+th {
+    height: 50px;
+}
+
+thead {
+    background-color: #191E24;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #34383C;
+}
+
+.banner {
+    background-color: #34383C;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 50px;
+    padding-left: 4cm;
+    margin-top: 20px;
+}
+
+.banner .navigation {
+    margin-right: 60px;
+}
+
+.banner .navigation {
+    color: white;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    margin-left: 28px;
+}
+
+.header-Spielplan p {
+    color: white;
+    font-size: 30px;
+    margin-top: 190px;
+    margin-left: 220px;
+}
+
+.header-tabelle {
+    color: white;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 220px;
+}
+
+.rectangle {
+    background-color: #191E24;
+    width: 170px;
+    height: 120px;
+    margin: 11px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabelle {
+    background-color: #191E24;
+    width: 1500px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-clubs p {
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 220px;
+}
+
+.clubs {
+    background-color: #191E24;
+    width: 1300px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 210px;
+}
+
+.banner {
+    background-color: #34383C;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 50px;
+    padding-left: 4cm;
+    margin-top: 20px;
+}
+
+.banner .navigation {
+    margin-right: 60px;
+}
+
+.banner .navigation {
+    color: white;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    margin-left: 28px;
+}
+
+.header-Spielplan p {
+    color: white;
+    font-size: 30px;
+    margin-top: 190px;
+    margin-left: 220px;
+}
+
+.header-tabelle {
+    color: white;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 220px;
+}
+
+.rectangle {
+    background-color: #191E24;
+    width: 170px;
+    height: 120px;
+    margin: 11px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Hintergrund*/
+
+.tabelle {
+    background-color: #191E24;
+    width: 1500px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 210px;
+}
+
+.header-clubs p {
+    color: white;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 220px;
+}
+
+
+/* Hintergrund*/
+
+.clubs {
+    background-color: #191E24;
+    width: 1500px;
+    height: 350px;
+    margin-left: 210px;
+}
+
+.clubs-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.clubs-grid img {
+    max-width: 100px;
+    max-height: 100px;
+}

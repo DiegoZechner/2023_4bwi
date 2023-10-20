@@ -4,14 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js"></script>
+    <title>Bundesliga</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
-    <div id="output">
-
+    <div class="banner">
+        <h1> Bundesliga</h1>
+        <div class="navigation">
+            <p> Home | Tabelle | Clubs | Spielplan </p>
+        </div>
     </div>
+
+    <div class="header-Spielplan">
+        <p>Spielplan</p>
+    </div>
+
+    <div class="container">
+        <div class="rectangle"></div>
+        <div class="rectangle"></div>
+        <div class="rectangle"></div>
+        <div class="rectangle"></div>
+        <div class="rectangle"></div>
+        <div class="rectangle"></div>
+        <div class="rectangle"></div>
+    </div>
+
+    <div class="header-tabelle">
+        <p>Tabelle</p>
+    </div>
+
+    <div class="content tabelle">
+        <table id="teamTable">
+            <thead>
+                <tr>
+                    <th>Vereine</th>
+                    <th>Sp</th>
+                    <th>S</th>
+                    <th>U</th>
+                    <th>N</th>
+                    <th>GT</th>
+                    <th>TD</th>
+                    <th>P</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+    </div>
+
+    <div class="header-clubs">
+        <p>Clubs</p>
+    </div>
+
+    <div class="content clubs">
+        <div class="clubs-grid">
+
+        </div>
+    </div>
+
 
 </body>
 
