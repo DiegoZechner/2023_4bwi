@@ -1,0 +1,82 @@
+/* Stilregeln für die Club-Elemente und Hintergrund */
+
+body {
+    background-color: #000E14;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.clubs {
+    display: flex;
+    flex-direction: column;
+}
+
+.clubs-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.club-card {
+    background-color: #191E24;
+    width: 480px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.club-logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.club-name {
+    font-size: 18px;
+}
+
+.banner {
+    background-color: #34383C;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 50px;
+    padding-left: 4cm;
+    margin-top: 20px;
+    font-family: Poppins;
+}
+
+.banner .navigation {
+    margin-right: 60px;
+    color: white;
+    font-size: 30px;
+}
+
+.header-clubs {
+    margin-top: 130px;
+    margin-left: 200px;
+}
+
+.header-clubs h2 {
+    color: white;
+    font-size: 30px;
+    margin-top: 130px;
+}

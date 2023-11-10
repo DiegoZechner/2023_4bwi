@@ -2,6 +2,7 @@ body {
     background-color: #000E14;
     margin: 0;
     padding: 0;
+    font-family: Poppins;
 }
 
 table {
@@ -48,6 +49,7 @@ tbody tr:nth-child(even) {
     font-size: 50px;
     padding-left: 4cm;
     margin-top: 20px;
+    font-family: Poppins;
 }
 
 .banner .navigation {
@@ -219,4 +221,10 @@ tbody tr:nth-child(even) {
 .clubs-grid img {
     max-width: 100px;
     max-height: 100px;
+}
+
+.vs {
+    color: white;
+    margin: 10px;
+    padding: 5px;
 }
