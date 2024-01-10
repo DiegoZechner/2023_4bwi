@@ -6,8 +6,6 @@ body {
     padding: 0;
     font-family: Poppins;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     min-height: 100vh;
 }
@@ -70,13 +68,10 @@ body {
     font-size: 30px;
 }
 
-.header-clubs {
-    margin-top: 130px;
-    margin-left: 200px;
-}
-
 .header-clubs h2 {
     color: white;
     font-size: 30px;
     margin-top: 130px;
+    margin-left: 200px;
+    font-family: Poppins;
 }
