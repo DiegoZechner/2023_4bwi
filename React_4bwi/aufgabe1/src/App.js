@@ -1,6 +1,6 @@
 import Drinks from "./components/drinks";
 import Buttons from "./components/buttons";
-import card from "./components/card";
+import Card from "./components/card";
 
 function App() {
   return (
@@ -13,11 +13,8 @@ function App() {
         <h1 className="mt-5 mb-5"> Buttons</h1>
         <Buttons button="Sender" />
       </div>
-
-      <div>
-        <h1 className="mt-5 mb-5"> Card</h1>
-        <cardname card="John Doe" />
-      </div>
+      <h1 className="mt-10 mb-2">Card</h1>
+      <Card cardName="John Doe" job="Architect & Engineer" />
     </div>
   );
 }
