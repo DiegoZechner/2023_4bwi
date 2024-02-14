@@ -3,6 +3,7 @@ import Card from "./Card";
 
 export default function PeopleContainer() {
   const [people, setPeople] = useState([]);
+  
 
   useEffect(() => {
     fetch("https://5e391b0baad2220014962337.mockapi.io/swp/person").then(
@@ -13,9 +14,14 @@ export default function PeopleContainer() {
     );
   }, []);
 
+
+
+
+
   return (
     <div>
       <h1>People</h1>
+      <button onClick={() => {setColor{"orange"};}}>Change Color</button>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
         {people.map((person) => {
           return (
