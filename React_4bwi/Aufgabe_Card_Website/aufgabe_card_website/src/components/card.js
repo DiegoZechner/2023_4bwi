@@ -10,7 +10,7 @@ export default function Card({ name, title, imageUri }) {
       <div className="bg-green-400 w-full">
         <img
           src={imageUri}
-          alt="example"
+          alt="not found"
           className="object-cover w-full h-full"
         />
       </div>
