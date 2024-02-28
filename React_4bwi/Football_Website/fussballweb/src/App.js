@@ -1,12 +1,10 @@
-import "./App.css";
+import React from "react";
 import Menu from "./components/molekule/menu.js";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
+    <div>
       <Menu />
     </div>
   );
 }
-
-export default App;
