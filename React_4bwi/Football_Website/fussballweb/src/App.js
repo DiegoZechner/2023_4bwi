@@ -1,11 +1,36 @@
 import React from "react";
-import Menu from "./components/molekule/menu.js";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Home from "./components/pages/Home.js";
+import Clubs from "./components/pages/Clubs.js";
+import Tabelle from "./components/pages/Tabelle.js";
+
+const router = createBrowserRouter([
+  {
+    path: "/Home",
+    element: (
+      <div>
+        <Home />
+      </div>
+    ),
+  },
+  {
+    path: "/Clubs",
+    element: (
+      <div>
+        <Clubs />
+      </div>
+    ),
+  },
+  {
+    path: "/Tabelle",
+    element: (
+      <div>
+        <Tabelle />
+      </div>
+    ),
+  },
+]);
 
 export default function App() {
-  return (
-    <div>
-      <Menu />
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
