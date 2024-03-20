@@ -8,6 +8,9 @@ module.exports = {
         fieldBG: "#191E24",
         HomepageBG: "#000E14",
       },
+      margin: {
+        headline1: "100px",
+      },
     },
   },
   plugins: [],

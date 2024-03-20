@@ -1,5 +1,10 @@
 import React from "react";
+import Menu from "../molekule/menu";
 
 export default function Tabelle() {
-  return <div>Tabelle</div>;
+  return (
+    <div>
+      <Menu />
+    </div>
+  );
 }

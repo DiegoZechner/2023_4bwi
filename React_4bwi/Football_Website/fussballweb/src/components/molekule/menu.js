@@ -7,7 +7,7 @@ export default function Menu() {
       <p>Bundesliga</p>
 
       <div className="flex font-normal text-3xl items-center">
-        <BannerButton path="/Home" name="Home" />
+        <BannerButton path="/" name="Home" />
         <BannerButton path="/Clubs" name="Clubs" />
         <BannerButton path="/Tabelle" name="Tabelle" />
       </div>

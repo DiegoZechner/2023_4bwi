@@ -6,12 +6,8 @@ import Tabelle from "./components/pages/Tabelle.js";
 
 const router = createBrowserRouter([
   {
-    path: "/Home",
-    element: (
-      <div>
-        <Home />
-      </div>
-    ),
+    path: "/",
+    element: <Home />,
   },
   {
     path: "/Clubs",
