@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Theader from "../atoms/theader";
 import Tbbody from "../atoms/Tbbody";
 
-function TeamTable() {
+function TeamTable({}) {
   const [tableData, setTableData] = useState([]);
 
   useEffect(() => {
@@ -10,7 +10,7 @@ function TeamTable() {
   }, []);
 
   function insertRow(data) {
-    setTableData(data.slice(0, 5));
+    setTableData(data.slice(0, 12));
   }
 
   function loadData() {
@@ -21,29 +21,19 @@ function TeamTable() {
       });
   }
 
-  // Find maximum width of data for each column
-  function getMaxWidth(data) {
-    return data.reduce((maxWidth, item) => {
-      const width = item.teamName.length;
-      return width > maxWidth ? width : maxWidth;
-    }, 0);
-  }
-
-  const maxColumnWidth = getMaxWidth(tableData);
-
   return (
     <div>
       <table>
         <thead>
           <tr className="flex justify-center">
-            <Theader name={"Verein"} width={maxColumnWidth} />
-            <Theader name={"Sp"} width={maxColumnWidth} />
-            <Theader name={"S"} width={maxColumnWidth} />
-            <Theader name={"U"} width={maxColumnWidth} />
-            <Theader name={"N"} width={maxColumnWidth} />
-            <Theader name={"GT"} width={maxColumnWidth} />
-            <Theader name={"TD"} width={maxColumnWidth} />
-            <Theader name={"P"} width={maxColumnWidth} />
+            <Theader name={"Verein"} />
+            <Theader name={"Sp"} />
+            <Theader name={"S"} />
+            <Theader name={"U"} />
+            <Theader name={"N"} />
+            <Theader name={"GT"} />
+            <Theader name={"TD"} />
+            <Theader name={"P"} />
           </tr>
         </thead>
         <tbody>

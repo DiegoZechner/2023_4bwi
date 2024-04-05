@@ -2,7 +2,8 @@ import React from "react";
 import Menu from "../molekule/menu";
 import Upcominggame from "../atoms/upcominggame";
 import Headline from "../atoms/headline";
-import Tabelle from "../molekule/Tabelle";
+
+import TeamTable from "../molekule/TabelleTabel";
 
 export default function Home() {
   return (
@@ -20,7 +21,10 @@ export default function Home() {
       </div>
       <Headline title={"Tabelle"} />
       <div className="flex justify-center mt-3">
-        <Tabelle />
+        <TeamTable />
+      </div>
+      <div>
+        <Headline title={"Clubs"}></Headline>
       </div>
     </div>
   );
